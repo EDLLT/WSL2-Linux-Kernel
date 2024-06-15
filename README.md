@@ -1,6 +1,11 @@
 # What is this fork about?
 This is the WSL2-Linux-Kernel that has been modified to enable loadable modules support and be able to use wireless adapters
 
+# Video Tutorial
+Amazing tutorial by TheConsciousCat on this whole process
+
+https://www.youtube.com/watch?v=l7VQQJdePlk
+
 # How to get this kernel
 
 Make a directory named src  
@@ -65,7 +70,7 @@ Assuming that there were no errors you're safe to proceed
 7. Paste this in(Don't forget to replace YOURUSER with your actual user) then CTRL+X to save the file and hit enter
    ```
    [wsl2]
-   kernel=C:\\Users\\Hamid\\bzImageMODULESLOADED
+   kernel=C:\\Users\\USERNAME\\bzImageMODULESLOADED
    ```
 8. goto windows command prompt and shutdown wsl(then wait for 10 seconds)
    `wsl --shutdown`
